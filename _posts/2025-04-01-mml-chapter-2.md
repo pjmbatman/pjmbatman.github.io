@@ -1,6 +1,6 @@
 ---
 title: "📐 MML Chapter 2: 선형대수학 (Linear Algebra)"
-date: 2025-05-01
+date: 2025-04-01
 categories: [Study, Mathematics for Machine Learning]
 tags: [MML, 선형대수, Linear Algebra, 머신러닝수학]
 math: true
