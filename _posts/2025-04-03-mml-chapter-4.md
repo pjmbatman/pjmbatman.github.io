@@ -1,6 +1,6 @@
 ---
 title: "🔍 MML Chapter 4: 행렬 분해 (Matrix Decompositions)"
-date: 2025-05-01
+date: 2025-04-03
 tags: [MML, 행렬분해, 선형대수, SVD, 고유값, 머신러닝수학]
 categories: [Study, Mathematics for Machine Learning]
 math: true
