@@ -1,6 +1,6 @@
 ---
 title: "📐 MML Chapter 3: 해석기하학 (Analytic Geometry)"
-date: 2025-05-01
+date: 2025-04-02
 tags: [MML, 해석기하학, 벡터기하학, 머신러닝수학, 내적, 정사영]
 categories: [Study, Mathematics for Machine Learning]
 math: true
