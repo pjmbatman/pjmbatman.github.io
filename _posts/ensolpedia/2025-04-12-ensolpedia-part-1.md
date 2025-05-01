@@ -1,12 +1,12 @@
 ---
-title: "🔬 Ensolpedia Part 1: 이차전지의 원리 - 배터리 산업의 심장을 뛰게 한다"
+title: "🔋 Ensolpedia Part 1: 이차전지의 원리 - 배터리 산업의 심장을 뛰게 한다"
 date: 2025-04-12
 tags: [이차전지, 리튬이온배터리, 양극재, 음극재, 전해질, CNT, 배터리소재]
 categories: [Study, Ensolpedia]
 math: true
 ---
 
-# ⚗️ Ensolpedia Study - 이차전지의 원리
+# 🔬 Ensolpedia Study - 이차전지의 원리
 
 > 본 포스팅에서는 현대 전지 기술의 중심이 되는 **이차전지**의 종류와 구성 소재에 대해 체계적으로 고찰한다.  
 > 특히 리튬이온배터리를 구성하는 핵심 소재인 **양극재, 음극재, 전해질, 분리막, 도전재** 등의 특성과 역할을 정리하고,  

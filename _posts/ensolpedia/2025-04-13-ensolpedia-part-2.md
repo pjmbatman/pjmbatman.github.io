@@ -1,12 +1,12 @@
 ---
-title: "🔬 Ensolpedia Part 2: 리튬이온배터리 제조 공정 - 고도의 기술을 집약한다"
+title: "🔋 Ensolpedia Part 2: 리튬이온배터리 제조 공정 - 고도의 기술을 집약한다"
 date: 2025-04-13
 tags: [리튬이온배터리, 전극공정, 조립공정, 활성화공정, 배터리팩, 셀밸런싱]
 categories: [Study, Ensolpedia]
 math: true
 ---
 
-# 🏭 Ensolpedia Study - 리튬이온배터리 제조 공정
+# 🔬 Ensolpedia Study - 리튬이온배터리 제조 공정
 
 > 리튬이온배터리는 단순한 화학적 조합이 아닌, 정밀한 물질 제어와 공정 기술이 결합된 결정체이다.  
 > 본 포스트에서는 총 6단계에 걸쳐 **리튬이온배터리 셀 제조의 실질적 절차**를 상세히 설명한다.

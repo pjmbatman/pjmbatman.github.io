@@ -1,12 +1,11 @@
 ---
-title: "🔬 Ensolpedia Part 4: 배터리 산업의 현황을 파악한다 - 배터리 종류와 활용"
+title: "🔋 Ensolpedia Part 4: 배터리 산업의 현황을 파악한다 - 배터리 종류와 활용"
 date: 2025-04-15
 tags: [리튬이온배터리, 원통형배터리, 파우치배터리, 전기차, ESS, 2차전지, 배터리재활용]
 categories: [Study, Ensolpedia]
 math: true
 ---
-
-# 🔋 Ensolpedia Study - 배터리 산업의 현황을 파악한다 - 배터리 종류와 활용
+🔬 Ensolpedia Study - 배터리 산업의 현황을 파악한다 - 배터리 종류와 활용
 > 배터리는 다양한 형태와 규격으로 진화하며 우리 생활 곳곳에 활용되고 있다.  
 > 본 포스팅에서는 배터리의 주요 종류와 활용 분야에 대해 살펴본다.
 
