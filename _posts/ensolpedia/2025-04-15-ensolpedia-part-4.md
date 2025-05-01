@@ -1,6 +1,6 @@
 ---
 title: "🔬 Ensolpedia Part 4: 배터리 산업의 현황을 파악한다 - 배터리 종류와 활용"
-date: 2025-04-21
+date: 2025-04-15
 tags: [리튬이온배터리, 원통형배터리, 파우치배터리, 전기차, ESS, 2차전지, 배터리재활용]
 categories: [Study, Ensolpedia]
 ---
