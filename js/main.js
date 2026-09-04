@@ -403,7 +403,7 @@ const PROJECT_DETAILS = [
     isLead: true,
     period: 'Jan. 2026 – Dec. 2026',
     title: 'Physics Foundation Model for Battery Full-Lifecycle Prediction and Diagnostics',
-    org: 'Institute for AI Innovation',
+    org: 'Institute for AI and Social Innovation',
     diagram: {
       flow: ['Multi-modal Battery Data', 'Physics-Based Modelling', 'Battery Foundation Model (B-FM)', 'Multi-Industries Applications'],
     },
@@ -437,7 +437,7 @@ const PROJECT_DETAILS = [
     tags: ['Neural Operator', 'Physics-Informed Learning', 'Battery World Model', 'Digital Twin', 'Multi-modal Battery Data'],
     outcomes: [
       'AI혁신연구원 연구지원사업 과제 선정 (2026)',
-      '"A Battery World Foundation Model for Diagnosis and Prognosis" — eTransportation, In Preparation'
+      '"WorldBatt: Learning a World Model of the Lithium-Ion Cell for Unified Battery Diagnostics and Prognostics" — Nature Computational Science, In Preparation'
     ]
   },
   // 2
@@ -696,6 +696,48 @@ const PROJECT_DETAILS = [
       '"Accelerating Motion Deblurring of Color Images with Grayscale Conversion and Approximate Color Restoration" — KMMS 2024',
       '"CycleGAN-Based Image Synthesis for Improving Traffic Light Recognition in Rainy Conditions" — KMMS 2024'
     ]
+  },
+  // 8
+  {
+    role: 'Proposal Co-Author & Lead Researcher',
+    isLead: true,
+    period: 'Apr. 2026 – Dec. 2029',
+    title: 'Development of an AI-Based Integrated Design and Safety Prediction Platform for Next-Generation Battery Materials-Electrodes-Cells',
+    org: 'AI+S&T Innovation Technology Development (R&D) Program · National Research Foundation of Korea (NRF) · Ministry of Science and ICT',
+    diagram: {
+      flow: ['Cell-Scale Physics Model & Diagnostic System', 'Digital Twin (Data Generation)', 'Diagnosis → Design Variables', 'Electrode & Material (Si Anode / Solid Electrolyte)'],
+    },
+    sections: [
+      {
+        icon: 'target',
+        title: 'Overview',
+        content: '<ul><li>원자–전극–셀 멀티스케일을 연계하는 AI 기반 모델로 소재 역설계, 전극 미세구조 분석, 셀 성능·안전성의 비파괴 사전 예측이 가능한 이차전지 전주기 가상 설계 통합 플랫폼 구축을 목표로 하는 4년(2026.04–2029.12) 국책과제</li><li>연세대학교(주관, 최정일 교수) 주도, KIST·고려대학교·중앙대학교(공동/위탁)와 모나(주)·트리니티 엔지니어링·버추얼랩(참여기업)이 함께하는 산학연 컨소시엄</li><li>Ulm University(Arnulf Latz 교수), Oxford University(Paul Shearing 교수) 연구진과 국제 공동연구 병행</li></ul>'
+      },
+      {
+        icon: 'problem',
+        title: 'Problem',
+        content: '<ul><li>소재–전극–셀/시스템 스케일별 데이터와 모델이 표준화되지 못하고 파편화되어 원자·소재 수준 지식이 전극 설계 변수 및 셀 성능·안전 지표로 전이되지 못함</li><li>고정밀 3D 다중물리 해석은 계산비용이 높아 대규모 설계 공간 탐색과 역설계가 제한됨</li><li>MES로 수집되는 실시간 제조 데이터가 설계·해석 모델과 단절되어 공정 조건 변화의 물리적 원인–결과 예측이 어려움</li></ul>'
+      },
+      {
+        icon: 'approach',
+        title: 'Approach',
+        content: '<ul><li>FAIR 원칙 기반 지식그래프와 GNN-PINN 하이브리드 모델로 조성–구조–물성 간 물리 일관성을 갖춘 다중 물성 동시 역설계 (소재 도메인)</li><li>전극 파라미터 기반 3D 미세구조 생성–다중물리 해석(정답기)–Neural Operator 가속–역설계를 하나의 폐루프로 통합 (전극 도메인)</li><li>다물리 디지털 트윈과 XAI(SHAP 등) 기반 진단 결과를 설계 변수로 역매핑하는 폐루프 최적화 (시스템 도메인) — 이 도메인의 실무를 담당</li><li>MES 실시간 데이터를 디지털 트윈과 동기화하고 PINN으로 공정 변화를 예측·피드백하는 통합 인프라 구축</li></ul>'
+      },
+      {
+        icon: 'target',
+        title: 'Deliverables (4-year Targets)',
+        content: '<ul><li>소재: 전위 예측 정확도 MAE ≤ 25 mV, AI 역설계 성공률 ≥ 80%, 생성형 AI 기반 소재 역설계 플랫폼 공개</li><li>전극: 3D 구조 생성 품질 SSIM ≥ 0.92, 기준 대비 용량 향상 ≥ 10%, 전극 설계 워크플로우 오픈소스 공개</li><li>시스템: 초기 용량 예측 정확도 ≥ 93%, RUL 수명 예측 정확도 ≥ 88%, 통합 플랫폼 API 기반 폐루프 최적화 실증(TRL4)</li><li>모델·코드·데이터셋 오픈 릴리즈를 통한 산학연 공동 활용 기반 확립</li></ul>'
+      },
+      {
+        icon: 'role',
+        title: 'My Role',
+        content: '<ul><li>과제 기획서 공동 저술 — 연구개발 목표·내용, 시스템 도메인 추진 전략 수립 참여</li><li>셀/시스템 스케일 디지털 트윈(DFN 기반 P2D/SPMe 모델)과 XAI 기반 진단·피드백 체계 설계 지원</li><li>소재–전극–셀 스케일 데이터 연계 인터페이스 및 평가 프로토콜 검토</li></ul>'
+      }
+    ],
+    tags: ['Multiscale Digital Twin', 'GNN-PINN', 'Neural Operator', 'Knowledge Graph', 'XAI', 'Si Anode / Solid Electrolyte'],
+    outcomes: [
+      'AI+S&T 혁신기술개발(R&D) 프로그램 과제 선정 (2026)'
+    ]
   }
 ];
 
@@ -728,7 +770,7 @@ const OUTCOME_GROUPS = {
       'AI혁신연구원 연구지원사업 과제 선정 (2026)'
     ],
     publications: [
-      '"A Battery World Foundation Model for Diagnosis and Prognosis" — eTransportation, In Preparation'
+      '"WorldBatt: Learning a World Model of the Lithium-Ion Cell for Unified Battery Diagnostics and Prognostics" — Nature Computational Science, In Preparation'
     ]
   },
   2: {
@@ -998,7 +1040,7 @@ const TRANSLATIONS = {
     'proj.5.desc': '치안현장 맞춤형 R&D 과제(폴리스랩 2.0)로, 게임 엔진 기반 합성 이상행동 데이터 10TB 생성 및 DANN 도메인 적응을 통한 ST-GCN 이상행동 감지 모델 고도화. 테스트 환경 정확도 84.49%, F1-Score 0.73 달성.',
     'proj.6.desc': '국책과제로 드론 감시 환경에서의 장거리 인물 추적을 위한 Vision AI 고도화 연구. 게임 엔진 기반 공중 시점 합성 데이터를 활용하여 Person Re-Identification 모델을 개발하고, IEEE 국제학회에서 발표.',
     'proj.7.desc': '극한 환경에서의 AI 기반 자율 순찰 로봇 프레임워크 개발. Thermal + Vision AI 융합 흡연 감지(Accuracy 94.2%, F1 0.85), 모션 디블러(PSNR 30.02), 악천후 대응, SLAM+ROS2 자율주행 4개 모듈 통합. 캡스톤 디자인 총장상(대상) 수상.',
-    'proj.8.desc': 'Unreal Engine을 활용하여 딥러닝 학습에 필요한 고품질 합성 데이터를 자동 생성하는 파이프라인을 구축. 다양한 카메라 앵글, 조명, 포즈 변화를 시뮬레이션하여 데이터 다양성을 확보하고, 실제 데이터 대비 모델 성능 향상 효과를 검증.',
+    'proj.8.desc': '원자–전극–셀 멀티스케일을 연계하는 AI 기반 이차전지 전주기 가상 설계·진단 플랫폼을 구축하는 4년 규모(2026–2029) 산학연 컨소시엄 국책과제. 연세대학교 주관, KIST·고려대학교·중앙대학교·모나(주) 등이 참여하며, 과제 기획서 공동 저술 및 시스템(디지털 트윈) 도메인 실무를 담당.',
     'proj.9.desc': '대학교 공지사항을 자동 크롤링하고, NLP 기법을 적용하여 사용자 맞춤형 키워드 알림을 제공하는 시스템을 개발. 웹 스크래핑, 텍스트 분류, 알림 서비스를 포함한 End-to-End 시스템을 구현.',
     'proj.10.desc': '실내외 공기질 데이터를 센서로 수집하고, AI 기반 예측 모델을 통해 자동으로 환기 시점을 결정하는 스마트 창문형 공기청정기를 설계 및 프로토타입 제작. 교육부/NRF 지원 산학협력 프로젝트로 팀을 이끌어 학장상(대상) 수상.',
     'publications.subtitle': '학술 논문 및 발표',
@@ -1054,9 +1096,9 @@ const TRANSLATIONS = {
     'proj.7.title': '극한 환경에서의 AI 기반 자율 순찰 로봇 프레임워크 개발',
     'proj.7.role': '팀 리더',
     'proj.7.org': 'ICIP & 캡스톤 디자인, 소프트웨어교육원, 동국대학교',
-    'proj.8.title': '게임 엔진을 활용한 딥러닝 분석용 데이터 생성 고도화 연구',
-    'proj.8.role': '연구원',
-    'proj.8.org': '자율 캡스톤 디자인, 동국대학교',
+    'proj.8.title': '차세대 배터리 소재-전극-셀 통합 설계 및 안전성 예측 AI 플랫폼 개발',
+    'proj.8.role': '과제 기획 공동저자 및 실무 책임',
+    'proj.8.org': 'AI+S&T 혁신기술개발(R&D) 사업, 한국연구재단(NRF), 과학기술정보통신부',
     'proj.9.title': '크롤링 및 NLP 기반 동국대학교 공지사항 알림 시스템',
     'proj.9.role': '개발자',
     'proj.9.org': '오픈소스 프로젝트, 소프트웨어교육원, 동국대학교',
@@ -1110,7 +1152,7 @@ const TRANSLATIONS = {
     'proj.0.desc': 'Developing a 10B+ parameter universal battery foundation model based on the physics+AI \'Entity-Scenario-EngineX\' 3-stage framework. Utilizing NVIDIA B200 24GPUs / 160TB data for EV/UAM/ESS full-lifecycle diagnostics, prediction, and design optimization as Agentic Scientific AI.',
     'proj.1.title': 'Physics Foundation Model for Battery Full-Lifecycle Prediction and Diagnostics',
     'proj.1.role': 'Proposal Author & Lead Researcher',
-    'proj.1.org': 'Institute for AI Innovation',
+    'proj.1.org': 'Institute for AI and Social Innovation',
     'proj.1.desc': 'Developing a Physics-Integrated Battery Foundation Model grounded in electrochemistry and thermodynamics. Building a physics-data fusion engine for full-lifecycle diagnostics and lifetime prediction, establishing a battery digital twin foundation for Agentic Scientific AI.',
     'proj.2.title': 'Development of a Foundation Model for Predicting Battery Safety and Lifetime',
     'proj.2.role': 'Proposal Author & Lead Researcher',
@@ -1136,10 +1178,10 @@ const TRANSLATIONS = {
     'proj.7.role': 'Team Leader',
     'proj.7.org': 'ICIP & Capstone Design, Software Education Institute, Dongguk University',
     'proj.7.desc': 'Developed an AI-driven autonomous patrol robot framework for extreme environments. Integrated 4 modules: Thermal+Vision smoking detection (Accuracy 94.2%, F1 0.85), motion deblur (PSNR 30.02), adverse weather, and SLAM+ROS2. Won the President\'s Grand Prize.',
-    'proj.8.title': 'An Advanced Study on Data Generation for Deep Learning Analysis Using the Game Engine',
-    'proj.8.role': 'Researcher',
-    'proj.8.org': 'Independent Capstone Design, Dongguk University',
-    'proj.8.desc': 'Built a pipeline for automatically generating high-quality synthetic data for deep learning using Unreal Engine. Simulated diverse camera angles, lighting, and pose variations to ensure data diversity, and verified model performance improvement compared to real data.',
+    'proj.8.title': 'Development of an AI-Based Integrated Design and Safety Prediction Platform for Next-Generation Battery Materials-Electrodes-Cells',
+    'proj.8.role': 'Proposal Co-Author & Lead Researcher',
+    'proj.8.org': 'AI+S&T Innovation Technology Development (R&D) Program · National Research Foundation of Korea (NRF) · Ministry of Science and ICT',
+    'proj.8.desc': 'A 4-year (2026–2029) national R&D consortium program building an AI-based full-lifecycle virtual design and diagnosis platform that bridges the atomic, electrode, and cell scales for next-generation batteries. Led by Yonsei University with KIST, Korea University, Chung-Ang University, and Mona Inc. as participating institutions; co-authored the proposal and lead the system (digital twin) domain.',
     'proj.9.title': 'Crawling and NLP-Powered Dongguk University Notification Alert System',
     'proj.9.role': 'Developer',
     'proj.9.org': 'Open Software Project, Software Education Institute, Dongguk University',
